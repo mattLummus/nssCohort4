@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
+
+nav{
+  background-color:#99FFCC;
+  display:block;
+}
+
+#htitle{
+font-family: 'Oswald', sans-serif;
+
+}
+
+nav li{
+  list-style-type:none;
+  display:inline-block;
+  padding:12px;
+}
+
+nav a{
+  text-decoration:none;
+  color:black;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+nav ul{
+  float:right;
+}
+
+.clear{
+  clear:both;
+}
+
+body{
+
+}
