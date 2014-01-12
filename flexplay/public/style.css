@@ -1,0 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
+
+#header{
+  background-color:green;
+}
+
+h1{
+  text-align:center;
+  font-family: "Arial Black";
+  color:white;•
+  text-shadow: 2px 2px black;
+}
