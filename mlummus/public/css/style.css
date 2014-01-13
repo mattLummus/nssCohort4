@@ -1,19 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 
-nav{
+#banner{
+  background-color:#2952A3;
+  font-size:80px;
+  color:#FFFFCC;
+  z-index:1;
+  margin-left:450px;
+  padding-left:20px;
+  margin-top:0px;
+  padding-top:150px;
+}
+
+#navLeft {
   background-color:#99FFCC;
-  display:block;
+  display-inline:inline-block;
+  z-index:2
+  margin:auto;
 }
 
-#htitle{
+#navTitle{
 font-family: 'Oswald', sans-serif;
-
+font-size:50px;
 }
 
-nav li{
+nav ul{
   list-style-type:none;
-  display:inline-block;
-  padding:12px;
+  display:block;
+  padding-right:300px;
+  margin-left:-30px;
 }
 
 nav a{
@@ -26,7 +40,7 @@ a:hover{
 }
 
 nav ul{
-  float:right;
+  float:left;
 }
 
 .clear{
